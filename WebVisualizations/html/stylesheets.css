@@ -1,8 +1,78 @@
 header {
 	background-color: rgba(74,170,165);
 	color: white;
+	width: 100vw;
+	margin: 10px;
+	float: left;
 	
 }
+
+header::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+/*NAVIGATION MENU*/
+
+nav	{
+
+	float: right;
+	margin-right: 0px;
+
+	padding: 0;
+
+}
+
+nav ul	{
+
+	list-style: none;
+}
+
+
+nav li {
+	display: inline-block;
+	margin-right: 10px;
+	position: relative;
+}
+
+
+nav a {
+
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+}
+
+
+nav a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+nav a::before {
+content: '';
+ display: block;
+ height: 3px;
+ background-color: white;
+ position: absolute;
+ width: 0%;
+ top: 20px;
+
+ transition: all ease-in-out 300ms;
+
+}
+
+nav a:hover::before {
+	width: 100%;
+
+}
+
+
+#second_header{
+	color: rgba(74,170,165);
+}
+
 
 
 #fig1 {
