@@ -4,6 +4,7 @@ header {
 	width: 100vw;
 	margin: 10px;
 	float: left;
+	padding: 10px;
 	
 }
 
@@ -13,12 +14,12 @@ header::after {
 	clear: both;
 }
 
-/*NAVIGATION MENU*/
+/*===========================NAVIGATION MENU===========================*/
 
 nav	{
 
 	float: right;
-	margin-right: 0px;
+	margin-right: 80px;
 
 	padding: 0;
 
@@ -68,6 +69,8 @@ nav a:hover::before {
 
 }
 
+/*==========================END NAVIGATION MENU===========================*/
+
 
 #second_header{
 	color: rgba(74,170,165);
@@ -75,6 +78,6 @@ nav a:hover::before {
 
 
 
-#fig1 {
-	width: 85%;
-}
+/*#fig1 {
+	width: 100%;
+}*/
